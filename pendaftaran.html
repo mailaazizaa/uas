@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pendaftaran Acara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Formulir Pendaftaran Acara</h1>
+  <form id="registrationForm">
+    <input type="text" id="name" placeholder="Nama Lengkap" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <select id="payment">
+      <option value="transfer">Transfer Bank</option>
+      <option value="ewallet">E-Wallet</option>
+    </select>
+    <button type="submit">Daftar</button>
+  </form>
+
+  <h2>Daftar Peserta</h2>
+  <ul id="participantList"></ul>
+
+  <a href="feedback.html">Ke Halaman Feedback</a>
+
+  <script src="pendaftaran.js"></script>
+</body>
+</html>
